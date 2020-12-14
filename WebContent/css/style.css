@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+/* Cabeçalho */
+/*Lembre-se aprender é sempre dolorido principalmente quando tropeçamos tanto, porém quando nunca praticamos
+nunca seremos bons, a diferença entre o iniciante e o profissional foram o número de tentativas*/
+
+body{
+	margin: 0 auto;
+	font-family: "Century Gothic",sans serif;
+}
+
+
+header img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+header{
+	height:35px;
+	background-color: #67a5c2;
+	margin: 0 auto;
+}
+
+nav .opcao{
+	float: right;
+	width: 26.5%;
+	font-size: 26px; 
+}
+
+nav .opcao:hover{
+	color: white;
+}
+
+/* fim cabeçalho */
+
+/* corpo pagina home*/
+
+.cartao{
+	background-color: #e6e6e6;
+  	padding: 30px;
+	margin-top: 13%;
+	width:70%;
+	display: block;/* bloco de codigo dessas 3 linhas abaixo fazem, ter a propriedade block que por sua vez habilita*/
+	margin-right: auto;/* poder dar margin right e left centralizando o elemento cartao*/
+	margin-left: auto; 
+}
+
+#texto{
+	text-align: center;
+	font-size: 4;
+}
+
+footer{
+	background-color:#67a5c2;
+	color: #fff;
+	text-align: center;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	padding:0;
+	background: "../imgs/rodapelogo.png";
+}
+
+/* fim corpo pagina home*/
+
+
+/* inicio contato*/
+
+#logo2 img{
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+  	width: 35%;
+  	padding-top: 2px;
+}
+
+.contato{
+	width: 300px;
+	margin: 8% auto;
+	font-weight: bold;
+	padding-top: 5%;
+}
+
+.contato input{
+	margin: 5px 300px;
+	padding: 5px 0;
+}
+
+.contato input{
+	width:100%;
+	margin: 5px auto;
+	padding: 5px 0;
+}
+.contato label{
+	margin: 15px auto;
+	padding: 5px 0;
+}
+
+.contato button{
+	width: 30%;
+	margin: 0 10%;
+	background-color: #b1ccf5;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.inputs input{
+	width: 35px;
+}
+
+.parteForm{
+	margin-top: 8%;
+	width: 20%;
+}
+
+
+/* fim contato*/
+
+
+/*inicio Tierlist*/
+
+#logo3 img{
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+  	width: 40%;
+  	height: 350px;
+  	padding-top: 2px;
+}
+
+.tierlist{
+	background: #1d1546;
+    padding: 1.4em 1.8em 2em; /*faz o espaço depois dos itens inseridos, bem pratico*/
+    color: #fff; /*pinta de branco as letras dentro da caixa roxa*/
+    margin-top: 395px; /*como coloco no header a imagem, tenho que dar margin top pra separar dela, algo obsoleto*/
+    width: 45.6%; /*tamanho da box*/
+    margin-left: auto; /*margin left e right fazem a centralização da box no meio, quando ativado o auto nas duas*/
+    margin-right: auto;
+}
+.tierlist h3{
+	margin-bottom: 20px;
+    color: #c9aa6e;
+    background-image: url(../imgs/topicon.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+.campeoes{
+	display: flex;
+}
+
+.campeao img{
+	width: 45%;
+	display:block;
+}
+
+.tierlist h3.mid{
+	background-image: url(../imgs/midicon.png);
+	background-size: 20px;
+}
+
+/*fim Tierlist*/
