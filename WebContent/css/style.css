@@ -126,7 +126,7 @@ footer{
  	margin-left: auto;
  	margin-right: auto;
   	width: 40%;
-  	height: 350px;
+  	height: 320px;
   	padding-top: 2px;
 }
 
@@ -134,10 +134,12 @@ footer{
 	background: #1d1546;
     padding: 1.4em 1.8em 2em; /*faz o espaço depois dos itens inseridos, bem pratico*/
     color: #fff; /*pinta de branco as letras dentro da caixa roxa*/
-    margin-top: 395px; /*como coloco no header a imagem, tenho que dar margin top pra separar dela, algo obsoleto*/
-    width: 45.6%; /*tamanho da box*/
-    margin-left: auto; /*margin left e right fazem a centralização da box no meio, quando ativado o auto nas duas*/
+    margin-top: 	75px; /*como coloco no header a imagem, tenho que dar margin top pra separar dela, algo obsoleto*/
+    margin-left: 22%;
+    width: 20.6%; /*tamanho da box*/
+/*margin left e right fazem a centralização da box no meio, quando ativado o auto nas duas*/
     margin-right: auto;
+    display:inline-block;
 }
 .tierlist h3{
 	margin-bottom: 20px;
@@ -159,6 +161,14 @@ footer{
 .tierlist h3.mid{
 	background-image: url(../imgs/midicon.png);
 	background-size: 20px;
+}
+#tabela td{
+	text-align: center;
+	vertical-align: middle;
+}
+table{
+	margin-top: 155px;
+	margin-right: 7.5%;
 }
 
 /*fim Tierlist*/
