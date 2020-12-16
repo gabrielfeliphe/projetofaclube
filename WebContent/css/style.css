@@ -137,7 +137,6 @@ footer{
     margin-top: 	75px; /*como coloco no header a imagem, tenho que dar margin top pra separar dela, algo obsoleto*/
     margin-left: 22%;
     width: 20.6%; /*tamanho da box*/
-/*margin left e right fazem a centralização da box no meio, quando ativado o auto nas duas*/
     margin-right: auto;
     display:inline-block;
 }
